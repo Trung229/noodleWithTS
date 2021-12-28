@@ -1,7 +1,7 @@
 # noodleWithTS
 
-# Project Noodle with Type Script
+- Project Noodle with Type Script
 
-# Intern: `Pham Duc Trung`
+- Intern: `Pham Duc Trung`
 
-# Stable on Android
+- Stable on Android
