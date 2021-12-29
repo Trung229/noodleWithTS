@@ -8,7 +8,7 @@ import {
 import { URL_LOCAL, LOGO } from '../utils/constant'
 import styles from './style'
 
-type LayoutReceive = {
+interface LayoutReceive {
     children:{},
     title: string
 }

@@ -7,7 +7,7 @@ import {
 import { BUTTON } from '../../utils/constant'
 import styles from './styles'
 
-type ButtonType = {
+interface ButtonType {
     title: string,
     handleEvent:() => void,
 }

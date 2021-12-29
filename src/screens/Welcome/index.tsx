@@ -15,14 +15,14 @@ import { URL_LOCAL, ICON_SCAN, VIDEO, WELCOME, LOGO, RIGHT_ARROW } from '../../u
 
 
 
-type ParametersType = {
+interface ParametersType {
   id:string,
 }
 
 type passParamToNewScreen = (where:string, params?:ParametersType) => void;
 
 
-type EventTypeScanCode = {
+interface EventTypeScanCode {
   data:string,
 }
 

@@ -21,37 +21,37 @@ const arrNoodle = [
     NOODLE_AVAILABLE_3
 ]
 
-type routeType = {
+interface routeType {
     params:{ id:string}
 }
 
-type navigationType = {
+interface navigationType {
     navigate:(where:string) => void;
 }
 
-type objReceiveType = {
+interface objReceiveType {
     route:routeType,
     navigation:navigationType
 }
 
 
-type itemFromDB = {
+interface itemFromDB {
     isTaken:boolean;
     name:string,
 }
 
-type DateType = {
+interface DateType {
     nanosecond:number,
     seconds:number
 }
 
-type DefaultRootStateType = {
+interface DefaultRootStateType {
     data:{payload:userType},
     id:string
     noodleAvailable: {isTaken:boolean, name:string}[]
 }
 
-type userType = {
+interface userType{
     avatar:string,
     birthDay:DateType,
     department:string,
